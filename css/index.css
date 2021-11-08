@@ -1,32 +1,29 @@
-  body{
-    background: white; 
-    font-family: "Quicksand", sans-serif;
-    font-size: 16px;
-    align-content: center;
-  }
-
-  .primero {
-    color: yellow;
-    background-color: blue;
+  html {
+    font-family: sans-serif; text-align: center
     
-    height: 20px;
-    width: 50%;
-  }
+}
+body {
+    display: inline-block; 
+    background-color: lightblue;
 
-  .segundo {
-    color: blue;
-    background-color:yellow;
+}
+p    {
+    color: rebeccapurple;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+label, legend {
+    font-weight: bold
+}
+*:required, .obligatorio {border: thin solid blue}
+input[type=number], .numero {text-align: right}
+.error {color:red}
 
-    height: 20px;
-    width: 50%;
-
-  }
-
-  .tercero {
-    color: yellow;
-    background-color: rgb(114, 224, 114);
-    
-    height: 20px;
-    width: 50%;
-    
+input {
+    width: 100%;
   }
