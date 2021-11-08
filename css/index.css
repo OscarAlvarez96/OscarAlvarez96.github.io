@@ -1,0 +1,32 @@
+  body{
+    background: white; 
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    align-content: center;
+  }
+
+  .primero {
+    color: yellow;
+    background-color: blue;
+    
+    height: 20px;
+    width: 50%;
+  }
+
+  .segundo {
+    color: blue;
+    background-color:yellow;
+
+    height: 20px;
+    width: 50%;
+
+  }
+
+  .tercero {
+    color: yellow;
+    background-color: rgb(114, 224, 114);
+    
+    height: 20px;
+    width: 50%;
+    
+  }
