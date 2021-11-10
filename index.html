@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manejo de Números</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="js/libs/bignumber.js/bignumber.min.js"></script>
+    <script src="js/libs/numeral.js/numeral.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Manejo de numeros</h1>
+    </header>
+    <form id="forma" action="javascript:procesa()">
+      <h2><em>El borde azul indica obligatorio</em></h2>
+      <p>
+        <label accesskey="1">
+          Variable 1: <br>
+          <input name="operador1" type="number" required
+                >
+        </label>
+      </p>
+      <p>
+        <label accesskey="2">
+          Variable 2: <br>
+          <input name="operador2" type="number" required
+                >
+        </label>
+      </p>
+         <output id="salidaSuma" ></output><br>
+        <output id="salidaResta" ></output><br>
+        <output id="salidaDivision" ></output><br>
+        <output id="salidaMultiplicacion" ></output><br>
+        <p>
+         <input type="submit" name="procesa" value="Calcular">
+         <input type="button" name="limpiar" value="Limpiar" ><br>
+        </p>
+       
+    </form>
+    <footer>
+        <p>By Oscar Alvarez Sanchez</p>
+      
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
